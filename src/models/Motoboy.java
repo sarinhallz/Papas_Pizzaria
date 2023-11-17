@@ -1,16 +1,16 @@
 package models;
 
 public class Motoboy {
-	//criando atributos
+	//========== criação de atributos ==========
 	private String name, moto;
 
-	//criando construtor
-	public void Motoboy(String name, String moto) {
+	//========== construtor ==========
+	public Motoboy(String name, String moto) {
 		this.name = name;
 		this.moto = moto;
 	}
 	
-	//gerando getters e setters
+	//========== getters e setters ==========
 	public String getName() {
 		return name;
 	}
